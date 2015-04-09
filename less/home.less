@@ -1,0 +1,65 @@
+* { margin: 0; padding: 0; }
+
+@font-face {  font-family: Harrington;  src: url("../font/Harrington%20Normal.ttf");  }
+@font-face {  font-family: Steinemb;  src: url("../font/STEINEMB.ttf");  }
+@font-face {  font-family: Urw;  src: url("../font/urw-antiqua-t-ultra-bold-wide.ttf");  }
+
+header {
+  height: 534px;
+  background-position: center;
+  background-size: cover;
+
+  &#home_header { background-image: url("../img/recipe282img.jpg"); }
+  &#nosotros_header { background-image: url("../img/recipe1941img.jpg"); }
+
+  #logo {
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 10px;
+
+    img { width: 500px; }
+  }
+
+  nav {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 30px;
+
+      &:first-child { margin-left: 25px; }
+
+      a {
+        font-family: Steimb, sans-serif;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+article {
+  padding: 30px;
+
+  p {
+    font-family: "Open Sans";
+    color: #666;
+    margin: 20px 0;
+  }
+}
+
+footer {
+  min-height: 300px;
+  background-color: grey;
+}

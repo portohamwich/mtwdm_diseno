@@ -1,5 +1,9 @@
-<header>
-    <div id="logo"></div>
+<header id="<?= $file; ?>_header">
+    <div id="logo">
+        <a href="home">
+            <img src="img/Logo.svg" />
+        </a>
+    </div>
     <nav>
         <ul>
             <li><a href="nosotros">Nosotros</a></li>

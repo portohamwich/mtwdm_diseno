@@ -1,14 +1,15 @@
 <meta charset="UTF-8">
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic'
+          rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
 </head>
 
 <body>
 <?php
-    include_once('header.php');
+
 
     $ru = explode('/',$_SERVER['REQUEST_URI']);
     $file = $ru[(count($ru)-1)];
@@ -18,6 +19,8 @@
     }
 
     $partial = 'partials/'.$file.'.php';
+
+    include_once('header.php');
 
     if(!include_once($partial)){
         include_once("partials/404.php");
