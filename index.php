@@ -1,6 +1,8 @@
-<meta charset="UTF-8">
 <!DOCTYPE html>
+<html>
 <head>
+    <title>Cenaduría Doña Elena</title>
+    <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic'
           rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css">

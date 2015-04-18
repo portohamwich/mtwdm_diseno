@@ -1,10 +1,12 @@
 <article id="nosotros">
-    <h1>Arriesgarse a tus sueños, puede valer la pena.</h1>
+    <h1>Nosotros</h1>
+
+    <h2>Arriesgarse a los sueños, puede valer la pena.</h2>
 
     <p>
-        Hace ya un cierto n˙mero de aÒos, con un interes de poder servir y cubrir un mercado
-        cuya presencia es muy baja en nuestra ciudad de LeÛn, Gto. y ofrecer un agradable sitio
-        para cenar en familia y/o en pareja; nos dimos a la tarea de iniciar este pequeÒo negocio
+        Hace ya un cierto número de años, con un interes de poder servir y cubrir un mercado
+        cuya presencia es muy baja en nuestra ciudad de León, Gto. y ofrecer un agradable sitio
+        para cenar en familia y/o en pareja; nos dimos a la tarea de iniciar este pequeño negocio
         de antojitos mexicanos.
     </p>
 
@@ -21,7 +23,7 @@
     </p>
 
     <p>
-        Si bien nos falta mucho por mejorar, esperamos muy pronto tener la satisfacciÛn de dar mejores
+        Si bien nos falta mucho por mejorar, esperamos muy pronto tener la satisfacción de dar mejores
         de recepcion, entrega, confort y sobre todo nuevos platillos para su deleite.
     </p>
 
