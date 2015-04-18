@@ -12,7 +12,6 @@
 <body>
 <?php
 
-
     $ru = explode('/',$_SERVER['REQUEST_URI']);
     $file = $ru[(count($ru)-1)];
 

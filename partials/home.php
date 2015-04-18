@@ -9,15 +9,25 @@
                     Sirviendo desde las 7:30 p.m. a 11:30p.m.
                 </p>
 
-                <a href="menu">
-                    Menu
+                <a href="menu" class="orange-btn">
+                    Ir al menu
                 </a>
             </div>
         </div>
 
         <div class="clearfix"></div>
 
-        <div>
-            <h1>La otra sección</h1>
+        <div id="conocenos-mas">
+            <h1>Conócenos más</h1>
+            <div class="home-text">
+                <img src="img/Mex-5.jpg" alt="Antojitos">
+                <p>
+                    Siempre hay algo que puede motivar a los demás, emprender siempre puede dar grandes satisfacciones.
+                </p>
+
+                <a href="nosotros" class="green-btn">
+                    Conócenos más
+                </a>
+            </div>
         </div>
 </article>
