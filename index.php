@@ -6,7 +6,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic'
           rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
 </head>
 
 <body>
@@ -34,6 +34,8 @@
         var pathArray = window.location.pathname.split("/");
         $("#" + pathArray[pathArray.length - 1]).addClass('active');
     </script>
+
+
 </body>
 
 </html>

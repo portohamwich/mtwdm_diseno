@@ -1,7 +1,7 @@
 <header id="<?= $file; ?>_header">
     <div id="logo">
         <a href="home">
-            <img src="img/Logo.png" alt="Cenaduría Doña Elena">
+            <img src="img/Logo_old.png" alt="Cenaduría Doña Elena">
         </a>
     </div>
     <nav>
