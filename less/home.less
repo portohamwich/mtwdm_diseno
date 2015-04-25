@@ -11,6 +11,7 @@ header {
   background-position: center;
   background-size: cover;
   box-shadow: rgba(0,0,0,0.7) 1px 1px 16px;
+  width: 100%;
 
   &#home_header { background-image: url("../img/recipe282img.jpg"); }
   &#nosotros_header { background-image: url("../img/recipe1941img.jpg"); }
@@ -24,7 +25,19 @@ header {
     left: 1%;
     top: 17%;
 
-    img { width: 500px; }
+    @media only screen and ( max-width: 550px ) {
+      width: 100%;
+      display: block;
+      top: 30%;
+    }
+
+    img {
+      width: 500px;
+
+      @media only screen and ( max-width: 550px ) {
+        width: 100%;
+      }
+    }
   }
 
   nav {
@@ -35,9 +48,18 @@ header {
     position: fixed;
     width: 100%;
 
+    @media only screen and ( max-width: 550px ) {
+      position: absolute;
+    }
+
     ul {
       display: inline-block;
       float: right;
+
+      @media only screen and ( max-width: 550px ) {
+        float: none;
+        text-align: center;
+      }
     }
   }
 
@@ -52,6 +74,11 @@ header {
         font-family: Steimb, sans-serif;
         color: white;
         text-decoration: none;
+
+        @media only screen and ( max-width: 550px ) {
+          display: inline-block;
+          padding: 10px;
+        }
       }
     }
   }
@@ -86,7 +113,8 @@ article {
 
     img {
       border-radius: 100%;
-      width: 340px;
+      max-width: 340px;
+      width: 100%;
     }
   }
 }
@@ -141,6 +169,45 @@ footer {
     color: black;
     font-weight: bold;
     font-size: larger;
+  }
+
+  .plus {
+   a {
+     line-height: 20px;
+      font-size: 15px;
+      position: relative;
+      top: -4px;
+      color: white;
+    }
+
+    img { width: 20px; }
+  }
+
+  #footerDE {
+    display: inline-block;
+    float: right;
+  }
+
+  #footerMiddle {
+    display: inline-block;
+    position: relative;
+    left: 25%;
+  }
+
+  #footerRight {
+    display: inline-block;
+    position: relative;
+    left: 25%;
+  }
+
+  @media only screen and ( max-width: 550px ) {
+    #footerDE, #footerMiddle, #footerRight {
+      float: none;
+      text-align: center;
+      display: block;
+      left: 0;
+      margin-bottom: 25px;
+    }
   }
 
   .contact-link { color: white; }

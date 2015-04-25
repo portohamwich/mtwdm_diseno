@@ -5,7 +5,7 @@
                 <img src="img/291108435_20140429083429.jpg" alt="Antojitos">
                 <p>
                     Algo para cada paladar, te invitamos a distrutar de los platillos típicos mexicanos.
-                    <br /><br />
+                    <br><br>
                     Sirviendo desde las 7:30 p.m. a 11:30p.m.
                 </p>
 

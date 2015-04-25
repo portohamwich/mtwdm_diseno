@@ -1,6 +1,8 @@
 #promociones {
   .promociones-content {
     img { width: 100%; }
+
+
   }
 
   .promociones-img {
@@ -10,6 +12,10 @@
     background-size: cover;
     margin-bottom: 60px;
     border-radius: 10px;
+
+    @media only screen and ( max-width: 897px ) {
+      & { display: none; }
+    }
   }
 
   #enfrijoladas { background-image: url("../img/promociones/enfrijoladas-1.jpg"); }
